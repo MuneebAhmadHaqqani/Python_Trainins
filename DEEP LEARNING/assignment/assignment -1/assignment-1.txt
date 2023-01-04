@@ -1,0 +1,8 @@
+please do the followings:
+
+
+Create ANN model to predict the salary
+
+Draw the loss using plt.plot() , and check the best number of epoch
+
+Evaluate the model 

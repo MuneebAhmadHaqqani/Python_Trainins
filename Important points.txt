@@ -1,0 +1,3 @@
+shift +tab >>> to get the signature /detial of a function
+
+tab >>> to auto fill commands

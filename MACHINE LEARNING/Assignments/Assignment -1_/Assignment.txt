@@ -1,0 +1,17 @@
+Please apply the following:
+
+
+
+- check and handle the missing values in each column (check how many null value and you need to fill it)
+
+- Get how many customer left Vs. existing customer (groupby)
+
+- compare between male and female behavior (groupby)
+
+- check which columns are important to keep and which we can remove ? .drop()
+
+- apply label encoding using (label encoding & one hot encoding)
+
+- apply Normalization using (minmax)
+
+- split the data into training 80% and testing 20%

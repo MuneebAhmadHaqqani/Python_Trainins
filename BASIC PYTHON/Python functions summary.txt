@@ -1,0 +1,69 @@
+general functions: 
+
+print() ---> display a value
+len()  --> return total number of items/char
+type() ---> return the datatype of a value
+list()   ---> convert the input into a list
+tuple()  ---> convert the input into a tuple
+str() --> convert the input into a string
+int()  ---> convert the input into a int
+
+------------------------
+keywords:
+
+del  ---> delete a certain item or a variable
+
+------------------------
+string functions:
+
+a.capitalize()  ---> it wil convert the first char from the string into a uppercase and follow by lower case
+a.upper() --> convert all string char into a upper case
+a.lower()  ---> convert all string char into a lower case
+a.find() --> return the index of the char
+a.split() ---> split the string based on a separeter and return the items in a list
+a.replace() --> replace old part of the string with new string
+a.index() --> return the index of a certain item
+a.count() --> return the total count of an item in a string
+
+------------------------
+list functions:
+
+a.append() --> add new single item (nested list) into a list
+a.extend() ---> add multiplt items into a list
+a.insert() --> add single item on a certain index location of the list
+a.count() --> return the total count of an item in a list
+a.index() --> return the index of a certain item in a list
+a.clear() --> will delete all items in a list
+
+
+------------------------
+tuple functions:
+
+a.count() --> return the total count of an item in a tuple
+a.index() --> return the index of a certain item in a tuple
+
+
+------------------------
+dic functions:
+
+a.update() --> add new item in a dic/json
+a.clear() --> will delete all items in a dic
+a.keys() --> will return a list of all the keys in a dic
+a.values() --> will return a list of all the values in a dic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

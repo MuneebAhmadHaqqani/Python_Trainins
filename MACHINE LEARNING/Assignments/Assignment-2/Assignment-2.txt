@@ -1,0 +1,3 @@
+Find all customers who are going to exit the company (churn) by selecting only the required columns from the data.
+
+Hint: Use scatterplot to identify the customer who are having more probability to exit 

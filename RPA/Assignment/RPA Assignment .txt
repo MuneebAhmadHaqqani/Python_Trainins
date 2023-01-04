@@ -1,0 +1,11 @@
+Assignment (1-2-2022):
+
+create an automation using uipath which co do the followings:
+
+- extract the text from a pdf file using OCR
+- send the text by email to (moh19869@hotmail.com)
+- use (take screenshot) to capture the screen for each step
+
+After finishing you can submit all in word file and include a screen shot for your uiPath 
+activity automation sequence. 
+

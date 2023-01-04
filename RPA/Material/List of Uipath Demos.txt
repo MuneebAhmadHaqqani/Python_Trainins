@@ -1,0 +1,57 @@
+List of Demonistrations Done in the session:
+==============================================
+
+Demo 1:Open browser and navigate to a certain URL and input a text data
+-----------------------------------------------------
+Activities used:
+- open browser ---> open browser and navigate to a URL 
+- click ---> allow the mouse to click on a certain pixel location
+- type into --> allow to type in a text box
+- send hotkey --> allow to press keyboard shortcut keys
+
+Demo2:using messgae box ,creating and assigning new variabe
+-----------------------------------------------------
+- Message box  ---> show a certin value()
+	- creating variable
+	- assigning value to a variable
+	- use variable with message box
+
+Note: press (Ctrl+K) ----> to create a variable with the right datatype
+
+Demo3: Taking screenshot
+-----------------------------------------------------
+Activites used:
+- take screenshot ----> capture screen and save it into a variable
+- save image ---> save the variable image into a .png (hard drive)
+
+Demo4: get text from Ui element
+-----------------------------------------------------
+activities used:
+- get text ----> get the text (str) from a UI element 
+- Message Box --> show certain value 
+
+Demo5: extract text from image
+------------------------------------------------------
+activities used:
+- load image ---> load image and save it into a variable
+- tesseract OCR  ---> OCR engine to extract text from image 
+- Message Box --> show certain value 
+
+Demo6: sending mail from personal account and corporate account
+------------------------------------------------------
+activities used:
+- send smtp message ---> send mail from personal account
+- send outlook mail message ---> send mail from corporate account 
+
+Demo7: if statement 
+------------------------------------------------------
+activities used:
+- assign ---> assign a value to a variable 
+- if ----> execute a sequence based on a condition 
+- Message Box --> show certain value 
+
+
+
+
+
+

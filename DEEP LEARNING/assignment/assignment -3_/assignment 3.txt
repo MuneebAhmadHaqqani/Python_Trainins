@@ -1,0 +1,16 @@
+Assignment 3:
+
+create a new environment (env2):
+
+
+steps to create a new env:
+
+- conda create --name myenv 
+- conda env list 
+- conda activate myenv 
+
+
+
+install tensorflow 2.0.0
+
+conda install tensorflow==2.0.0

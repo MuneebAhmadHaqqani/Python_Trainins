@@ -1,0 +1,39 @@
+string functions:
+
+a.upper() --> it will convert the string char into upper case
+a.lower() --> it will convert the string char into a lower case
+a.split() --> return a list of string items 
+a.find() --> return the index of the first char of the argument
+a.capitalize() --> it will convert the first char into a upper case and rest as a lower case
+a.replace() --> replace part of the string with a new string 
+len(a) --> number of char in a string
+a.count() --> return the frequency of the argument in a string
+
+
+list (mutable) functions:
+
+a.append() --> add new single item to a list
+a.extend() --> add multiple new item to a list
+a.insert() --> adding new item in a particular index
+a.index() --> return the index of an item in a list
+a.clear() --> delete all items in a list 
+a.count() --> return frequency of an item in the list
+del a --> delete the list itself from the memory
+del a[0] --> delete specific item based on the index passed.
+len(a) --> number of items in a list
+
+
+tuple (imutable) functions:
+
+a.count() --> return frequency of an item in the tuple
+a.index()--> return the index of an item in a tuple
+len(a) --> number of items in a tuple
+
+
+
+
+
+
+
+
+

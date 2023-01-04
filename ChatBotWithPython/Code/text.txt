@@ -1,0 +1,1 @@
+Natural Language Processing (NLP) is the most interesting subfield of data science. It offers powerful ways to interpret and act on spoken and written language. It’s used to help deal with customer support enquiries, analyse how customers feel about a product, and provide intuitive user interfaces.
