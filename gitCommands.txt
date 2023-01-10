@@ -1,0 +1,95 @@
+git config --global user.name "muneeb"
+git config --global user.email "muneebhaqqani@gmail.com"
+
+git init                               --- to create initilized empty git repositry ...so current working directory will come under umbrella of GIT
+git status                             --- to check status of each file(filesuntracked ,files in staging status etc.)
+git add <file>                         --- to add file from local working directory into staging area.
+git add -A                             --- to add all files from untracked status into staging status or 
+git add .                              --- to add all files from untracked status into staging status
+git add *.txt                          --- to add all text file from untracked status into staging status
+
+git clean -f                           --- to remove untracked files from  working directory/folder
+git rm <file>                          --- This command deletes the file from your working directory and stages the deletion.
+git rm --cached <file>                 --- to ustage file from staging enviornment.
+git rm  <file>  -f                     --- to remvoe the file from your hard disk also..file also will be deleted from staging directory
+
+git restore --staged <file>            --- to unsgate file from staging environment
+git restore <file>                     --- to discard last changes in working directory..when stage/comitted file is modified..changes can be restored
+
+git commit - m "your commits"          --- to commit file...File will move form staging environment to commit section
+git commit --amend                     --- lets you amend the most recent commit.
+git log                                --- to show the log of commit of current branch or
+git log <branchname>                   --- to show the log of commit of given branch
+got show <commit id>                   --- to see the code written against sepecific commit ID and also log history for that commit ID.
+git log  <remote repo/branch name>     --- to show the log of commit of given  remote repo branch
+git log -p -2                          --- to show you detail of last 2 commits 
+git log branch1..branch2               --- to see difference b/w two branches commit...(first branch will be refrence)
+
+git stash                              --- to save changes in stash..sort of clip borad
+git stash save <file>                  --- to save changes in stash with specific name
+git stash list                         --- to list all the stash files
+git stash pop                          ---  to restore the latest changes back to branch
+git stash apply stash@{1}              --- to restore  specific changes of stash@1
+git stash clear                        --- to clear stash clipboard
+
+git clone <Remote Repo URL>            --- to clone remote Repo in local machine.will create new local repo.local repo does not already exist.
+git remote add origin  Remote Url      --- to create a new connection of local Repo with remote Repo..where local repo already created
+git push --set-upstream <Repo> <branch>--- if remote Repo added by above commnad then you need to push local repo data with this command ..first time or
+git push <Repo> <Branch>               --- if remote Repo added by above commnad then you need to push local repo data with this command ..first time or
+git remote add upstream  Remote Url    --- to create a new aconnection of local Repo with FORKED Repo..
+git remote -v                          --- to show remote repo to which local repo is connected..local repo can puch code to multiple remote repo.
+git remote show origin                 --- show detail/summary of remote repo
+
+git push                                 --- push changes to remote repo...pushes changes to remote repo (default repos) OR
+git push  origin (Repo) main(branch)     --- (origin , master by default) -------push changes to remote repo
+git push -u origin (Repo) main(branch)   --- to push first time the local repo data into remote repo--if Local & Remote Repo added with above code
+git fetch                                --fetch changes from remore repo
+git merge                             --- merge changes that was fetch by git fetch
+git pull                              ---rather than using git fetch +git merge..use git pull command to fetch and merge changes from remote repo.
+git push -f                           --- push changes forefully
+
+git branch                             --- to show list of branches
+git branch -v                          --- to show list of branches with last commit of each.
+git branch <name>                      --- to create a new branch
+git checkout <name>                    --- to switch into specific branch 
+git checkout -b <name>                 --- will create new brach and then switched to this new branch
+git merge (branch name)                --- to merge given branch with current branch..current brach will be updated with all changes of given branch.
+
+git branch -d <branchname>                      ---- to delete local branch
+git branch --delete <branchname>                ---- to delete local branch
+git branch -dr (RemoteRepo/branchname)          ---- to delte remote branch from local repo...branch is deleted in local machine but still exists in remote
+git push <RemoteRepo> --delete <branchname>     ---- to delete remote branch from remote repo as well
+
+git checkout head <file>                     --- to undo changes in one file(provided file name).these changes are not committed yet.
+git reset --hard Head                        --- to undo changes in all files ...these files are staged and changes are not committed yet
+
+git revet <commithash>(first 7 digit)        --- to undo committed changes..it creats a new commit.history remains of deleted commit..changes are reeverted
+gir reset --hard <commithash>(first 7 digit) --- to undo committed hash--- it rollba+ck the commit and moves you to back at the position of given commithash
+git reset --keep <commithash>(first 7 digit) --- to undo committed hash--- it rollback the commit and moves you to back at the position of given commithash and keeps the history locally of deleted committs.
+
+
+git rebase branchname   ----to merge (using rebase technique) branches...
+
+
+
+
+
+
+
+
+
+
+
+
+check again...not working last time
+git restore --staged ( file name with ext)   ----another way to remove file from staging environment
+
+touch newfile (with ext)                     --- to create new file
+
+git diff (file name with ext)                --- to know the difference b/w working directory and staging area
+git diff --staged                            --- to know the difference b/w staging file and commit file
+
+git checkout -f                              ---another way to restore the last changes of all files
+
+git status -s                                ---sumary of the files...with their status
+git commit -a -m "your commits here"  --- to commit all file without going into staging area..even untracked files will be committed

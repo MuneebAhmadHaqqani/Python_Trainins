@@ -1,0 +1,11 @@
+- download tableau bridge
+- login to tableau bridge  
+- import data to tableau (product.csv)
+- create a chart in tableau desktop
+- publish the workbook into tableau online
+- make sure to mark (publish the data seperatly) 
+- add new record in the data (new row) ---> save
+- create a refresh for the data course from tableau online 
+- check the connectivity from your tableau bridge 
+- check the workbook in tableau online and see the updated data as per the refresh time.
+
